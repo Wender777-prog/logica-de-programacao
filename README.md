@@ -3,10 +3,10 @@ Exercícios e projetos de lógica com Visualg.
 
 ## Lista de exercícios
 
-01_conversor_seno.alg
+## 01_conversor_seno.alg
 Descrição: Recebe um ângulo em graus, converte para radianos e calcula o seno usando a função Sen. Mostra o resultado ao usuário.
 
-## algoritmo "conversor_seno"
+algoritmo "conversor_seno"
 var
   angulo, s: Real
 inicio
