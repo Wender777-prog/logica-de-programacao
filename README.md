@@ -6,7 +6,7 @@ Exercícios e projetos de lógica com Visualg.
 01_conversor_seno.alg
 Descrição: Recebe um ângulo em graus, converte para radianos e calcula o seno usando a função Sen. Mostra o resultado ao usuário.
 
-algoritmo "conversor_seno"
+## algoritmo "conversor_seno"
 var
   angulo, s: Real
 inicio
@@ -16,7 +16,7 @@ inicio
   Escreva("O seno de ", angulo, " é igual a ", s)
 fimalgoritmo
 
-02_classificacao_triangulo.alg
+## 02_classificacao_triangulo.alg
 Descrição: Recebe três lados e verifica se eles formam um triângulo, além de classificar se é equilátero ou escaleno.
 
 algoritmo "classificacao_triangulo"
@@ -40,7 +40,7 @@ inicio
   escreval("O triangulo e escaleno? ", Es)
 fimalgoritmo
 
-03_numero_par_ou_impar.alg
+## 03_numero_par_ou_impar.alg
 Descrição: Verifica se um número inteiro informado é par ou ímpar usando o operador Resto.
 
 algoritmo "numero_par_ou_impar"
@@ -58,7 +58,7 @@ inicio
   fimse
 fimalgoritmo
 
-04_soma_simples.alg
+## 04_soma_simples.alg
 Descrição: Lê dois números inteiros, soma-os e exibe o resultado.
 
 algoritmo "soma_simples"
@@ -72,7 +72,3 @@ inicio
   S <- N1 + N2
   Escreva("O resultado da soma entre ", N1, " e ", N2, " é igual a ", S)
 fimalgoritmo
-
-
-
-
